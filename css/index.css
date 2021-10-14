@@ -1,0 +1,57 @@
+/*Normalizar*/
+*,
+*::after,
+*::before {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;    
+}
+html{
+    font-size: 62.5%;
+    color:crimson;
+    
+}
+body{
+    display: grid;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    list-style-type: none;
+}
+nav.navegacion{
+    display: flex;
+    flex-direction: row;
+    background-color: #333A40; 
+    color: white;   
+}
+navegacion{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+#conferencia{
+    max-width: 1080px;
+}
+.overlay { 
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top: 75%;
+    left:0;
+    width:100%;
+    text-align:right;
+  }
+#oradores{
+    max-width: 800px;
+}
+
+
