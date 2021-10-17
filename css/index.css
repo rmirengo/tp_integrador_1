@@ -1,57 +1,36 @@
-/*Normalizar*/
-*,
-*::after,
-*::before {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;    
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
 }
-html{
-    font-size: 62.5%;
-    color:crimson;
-    
+.carouselPrincipal{
+    position: relative;
+    top:100vh;
+    z-index: 2;
 }
-body{
-    display: grid;
-}
-a{
-    text-decoration: none;
-    color:inherit;
-}
-ul{
-    list-style-type: none;
-}
-nav.navegacion{
-    display: flex;
-    flex-direction: row;
-    background-color: #333A40; 
-    color: white;   
-}
-navegacion{
-    display: flex;
-    flex-direction: row;
-}
-.menu{
-    display:flex;
-    flex-direction:row;
-    align-items: flex-end;
-    justify-content: space-between;
-    font-size: 2rem;
-}
-#conferencia{
-    max-width: 1080px;
-}
-.overlay { 
-    color:#fff;
+.overlay{
+    text-align: end;
     position:absolute;
-    z-index:12;
-    top: 75%;
-    left:0;
-    width:100%;
-    text-align:right;
-  }
-#oradores{
-    max-width: 800px;
+    right: 10%;
+    top: 40%;
+    z-index: 3;
+    color:white;
 }
-
-
+#oradores>p,h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+#oradores>p{
+    margin-top: 5px;
+}
+#participa>p,h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+#menufoot{
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg,rgba(27,55,67,1)0%,rgba(31,82,113,1)100%);
+}
