@@ -6,31 +6,57 @@
 	border: none;
 	outline: none;
 }
+header{
+    height: 8vh;
+}
+main{
+    padding: 10rem,0;
+}
 .carouselPrincipal{
     position: relative;
-    top:100vh;
-    z-index: 2;
+    top:100px;
+    z-index: 0;
 }
-.overlay{
+#overlay{
     text-align: end;
+    justify-content: center;
     position:absolute;
-    right: 10%;
-    top: 40%;
-    z-index: 3;
+    right: 2%;
+    height: auto;
+    bottom: 150px;
+    z-index: 1;
     color:white;
 }
+#oradores{
+    padding-top: 6rem;
+}
 #oradores>p,h2{
+    position: inherit;
     text-align: center;
     margin-bottom: 2px;
 }
 #oradores>p{
     margin-top: 5px;
 }
+#donde{
+    padding-top: 6rem;
+}
+#participa{
+    padding-top: 6rem;
+}
 #participa>p,h2{
     text-align: center;
     margin-bottom: 2px;
 }
+#tickets{
+    padding-top: 6rem;
+}
+#tickets>p,h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
 #menufoot{
+    margin-top: 6rem;
     background: rgb(9,9,121);
     background: linear-gradient(90deg,rgba(27,55,67,1)0%,rgba(31,82,113,1)100%);
 }

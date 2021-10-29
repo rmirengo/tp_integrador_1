@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+body{
+    color: white;
+}
+#conferencia{
+    position: absolute;        
+}
+#conferencia>div{
+    position: absolute;
+}
+#overlap{
+    text-align: end;
+    margin-inline-end: 10%;
+    right: 2rem;    
+    height: 800px;
+    z-index: 1;
+}
+#carousel{
+    z-index: 0;    
+}
